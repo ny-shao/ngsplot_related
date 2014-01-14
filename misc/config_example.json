@@ -1,0 +1,49 @@
+{
+	"genome": "hg19",
+	"cores": 20,
+	"fragmentlength": 150,
+	"regions":[
+	{
+		"region": "tss"
+	},
+	{
+		"region": "genebody"
+	}
+	],
+	"genelists":[
+	{
+		"genelist": "~/data/misc/hg19_PFC_exp/hg19.PFC.low.txt"
+	},
+	{
+		"genelist": "~/data/misc/hg19_PFC_exp/hg19.PFC.mid.txt"
+	},
+	{
+		"genelist": "~/data/misc/hg19_PFC_exp/hg19.PFC.high.txt"
+	}
+	],
+	"tags":[
+	{
+		"tag": "Low"
+	},
+	{
+		"tag": "Mid"
+	},
+	{
+		"tag": "High"
+	}
+	],
+	"bams":[
+	{
+		"bam": "175_p2_H3K9me2.bam:175_input.bam"
+	},
+	{
+		"bam": "175_p3_H3K9me2.bam:175_input.bam"
+	},
+	{
+		"bam": "197_p2_H3K9me2.bam:197_input.bam"
+	},
+	{
+		"bam": "197_p3_H3K9me2.bam:197_input.bam"
+	}
+	]
+}
