@@ -1,17 +1,17 @@
 ngsplot_related
 ===============
 
-ngs.plot is a useful visualization utility in the analysis of NGS data. Here are some scripts useful for the application of ngs.plot in the daily analysis.
+[ngs.plot](http://code.google.com/p/ngsplot/) is a useful visualization utility in the analysis of NGS data. Here are some scripts useful for the application of ngs.plot in the daily analysis.
 
 Some of them are or will be part of ngs.plot, some of them just for the convenience of the daily usage.
 
-ngsplot_json.sh:
+* ngsplot_json.sh:
 
 A script for the case that we need to plot multiple datasets with several gene lists, and one dataset per plot. An example of json config file is provided under misc folder.
 
 [jq](http://stedolan.github.io/jq) is required to parse the json config file.
 
-genNormedNgsplotConfig.py:
+* genNormedNgsplotConfig.py:
 
 A script to quickly generate configuration file needed by ngs.plot.
 
@@ -32,7 +32,7 @@ FactorB.bam:FactorB_input.bam	-1	FactorB:FactorB_input
 
 ```
 
-plotCorrGram.r:
+* plotCorrGram.r:
 
 A script to plot CorrGram of the matrix of the output from ngs.plot.
 
